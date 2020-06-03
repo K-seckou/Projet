@@ -2,7 +2,7 @@
 
 session_start();
 
-require('Src/Bdd.php');
+//require('Src/Bdd.php');
 
 if(!empty($_POST['Pseudo']) && !empty($_POST['Email']) && !empty($_POST['PASS']) && !empty($_POST['confim_pass'])) {
 
